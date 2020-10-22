@@ -1,9 +1,9 @@
 
 
 $(document).ready(function() {
-    if ($(".koala-click").click()) {
-        $(".koala").addClass(".show-class");
-    }
+    $(".koala-click").click(function() {
+        $(".koala").toggle();
+    });
     $(".beluga-click").click(function() {
         $(".beluga").toggle();
     });

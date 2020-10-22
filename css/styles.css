@@ -7,6 +7,18 @@ img {
   display: none;
 }
 
+.show-class {
+  display: initial;
+}
+
+.koala-click, .beluga-click, .robin-click {
+  transform: scale(1);
+}
+
+.koala-click:active, .beluga-click:active, .robin-click:active {
+  transform: scale(.95);
+}
+
 .centered {
   padding: 10px;
   margin-left: auto;

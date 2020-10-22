@@ -1,5 +1,13 @@
+
+
 $(document).ready(function() {
-    $(".koala-click").click(function() {
-        $(".koala .beluga .robin").toggle();
+    if ($(".koala-click").click()) {
+        $(".koala").addClass(".show-class");
+    }
+    $(".beluga-click").click(function() {
+        $(".beluga").toggle();
+    });
+    $(".robin-click").click(function() {
+        $(".robin").toggle();
     });
 });
